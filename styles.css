@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
+
+* {                                         /* the * is for the everything selector */
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: #1e3d59;
+}
+
+
+
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;            /*space between the list*/
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover{                 /* gives action to when you hover*/
+    background-color: rgba(255, 255, 255, .3);           
+}
+
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+.main-nav li {
+    padding: 0% 3%;
+}
+
+
+.main-header {
+    background-color: #ff6e40;
+    padding-bottom: 20px;
+}
