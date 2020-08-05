@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 
 * {                                         /* the * is for the everything selector */
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
-    color: #1e3d59;
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(236, 57, 91)
 }
 
-
-
-
+.page-body {
+    background-color: black;
+}
 
 
 html, body {
@@ -49,6 +51,35 @@ html, body {
 
 
 .main-header {
-    background-color: #ff6e40;
+    background-color: rgb(58, 113, 134);
     padding-bottom: 20px;
+}
+
+.page-title {
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+}
+
+
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.home-title {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
 }
